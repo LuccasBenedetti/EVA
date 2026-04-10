@@ -1,0 +1,34 @@
+# EVA 4.0 — Dependências
+# Instalar: pip install -r requirements.txt
+
+# Core
+openai
+httpx
+python-dotenv
+colorama
+
+# Audio & TTS
+edge-tts
+pygame
+sounddevice
+scipy
+numpy
+
+# Transcription (CTranslate2 backend — CUDA próprio, sem PyTorch)
+faster-whisper
+ctranslate2
+
+# Memory (ONNX Runtime — sem PyTorch)
+onnxruntime-gpu
+huggingface-hub
+tokenizers
+
+# Vision & Desktop Automation
+pyautogui
+winsdk
+
+# Push-to-Talk
+keyboard
+
+# Tools
+pywhatkit
